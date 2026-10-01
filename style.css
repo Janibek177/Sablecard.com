@@ -23,7 +23,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
+::-webkit-scrollbar{
+    scrollbar-width: none;
+}
 .main-header {
     display: flex;
     justify-content: space-between;
